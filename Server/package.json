@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "This is an E-Commerce Website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thai-cong-nguyen/E-commerce.git"
+  },
+  "author": "Harry Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thai-cong-nguyen/E-commerce/issues"
+  },
+  "homepage": "https://github.com/thai-cong-nguyen/E-commerce#readme",
+  "dependencies": {
+    "@prisma/client": "^5.8.0",
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.0.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "prisma": "^5.8.0"
+  }
+}
