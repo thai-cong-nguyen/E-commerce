@@ -3,42 +3,66 @@ Role:
     - staff
     - user
 Function:
-    - Đăng Ký (Sign up):
-        - Username
-        - Password
-        - Email (Verify OTP)
-        - PhoneNumber
-    - Đăng Nhập (Sign in):
-        - Username / Email
-        - Password
-        - Captcha (Developing)
-    - Cập nhật thông tin mua hàng (Update shopping information):
-        - Name (First name, Last name)
-        - PhoneNumber (Verify OTP)
-        - Address
-    - Thêm sản phầm vào giỏ hàng (Add Products to Cart):
-        - Product
-        - Quantity
-    - Tìm kiếm sản phầm:
-        - tên
-        - hình ảnh (AI)
-    - Xem thông tin sản phẩm (View Product Detail):
-        - Product
-            - Name
-            - Category
-            - Inventory Quantity
-            - Sold Quantity
-            - Color (...)
-            - Size (...)
-            - Price
-            - Description
-            - Detail
-            - Amount of Like
-            - Service (FreeShip, Return Delivery)
-        - Producer
-            - Name
-            - 
-        - Ratings & Reviews
-            - Rating Average (from 1 to 5 stars)
-            - Total of reviews
-            - 
+    - User
+        - Đăng Ký (Sign up):
+            - Username
+            - Password
+            - Email (Verify OTP)
+            - PhoneNumber
+        - Đăng Nhập (Sign in):
+            - Username / Email
+            - Password
+            - Captcha (Developing)
+        - Cập nhật thông tin mua hàng (Update shopping information):
+            - Name (First name, Last name)
+            - PhoneNumber (Verify OTP)
+            - Address
+        - Thêm sản phầm vào giỏ hàng (Add Products to Cart):
+            - Product
+            - Quantity
+        - Tìm kiếm sản phầm:
+            - tên
+            - hình ảnh (AI)
+        - Xem thông tin sản phẩm (View Product Detail):
+            - Product
+                - Name
+                - Category
+                - Price
+                - Description
+                - Detail
+                    - Color (...)
+                    - Size (...)
+                    - Sold Quantity
+                    - Inventory Quantity
+                    - Unit
+                - Amount of Like
+                - Service (FreeShip, Return Delivery)
+                - 
+            - Producer
+                - Name
+                - Link
+            - Ratings & Reviews
+                - Rating
+                    - Rating Average (from 1 to 5 stars)
+                - Review
+                    - Total of reviews
+                    - Reviews Description
+            - Images
+                - Main Image
+                - 2-3 Sub Image
+        - Rate & Review for Product
+            - Add Review or/and Rating
+        - Thêm sản phầm vào phần yêu thích (Add Product to Favorite List):
+            - Product
+        - Order Product
+        - Payment by ZaloPay
+    - Admin
+        - Cung cấp tài khoản cho nhân viên(Provide account for Staff)
+        - Cấm tài khoản người dùng (Ban user's account)
+        - Quản lý (Management):
+            - Tài khoản (Account):
+            - Sản phẩm (Product):
+            - Loại sản phẩm (Category):
+
+    
+        
